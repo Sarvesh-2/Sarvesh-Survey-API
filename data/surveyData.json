@@ -1,0 +1,37 @@
+{
+    "title": "Sample Survey",
+    "questions": [
+      {
+        "question": "How satisfied are you with the quality of our product?",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "question": "Would you recommend our product to others?",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "question": "How often do you use our mobile app?",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "question": "How satisfied are you with the delivery speed of our products?",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "question": "On a scale of 1 to 10, how easy is it to navigate our website?",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "question": "How often do you use our customer support service?",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "question": "How likely are you to attend our future events?",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      },
+      {
+        "question": "How likely are you to continue using our services in the future?",
+        "options": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+      }
+    ]
+  }

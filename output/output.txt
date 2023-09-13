@@ -1,0 +1,299 @@
+output for route : http://localhost:4000/api/surveys (POST)
+
+{
+    "message": "Survey created successfully"
+}
+
+
+
+output for : http://localhost:4000/api/surveys (GET)
+
+[
+    {
+        "_id": "6501c76c14d8666143aea897",
+        "title": "Sample Survey",
+        "questions": [
+            {
+                "question": "How satisfied are you with the quality of our product?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "_id": "6501c76c14d8666143aea898"
+            },
+            {
+                "question": "Would you recommend our product to others?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "_id": "6501c76c14d8666143aea899"
+            },
+            {
+                "question": "How often do you use our mobile app?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "_id": "6501c76c14d8666143aea89a"
+            },
+            {
+                "question": "How satisfied are you with the delivery speed of our products?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "_id": "6501c76c14d8666143aea89b"
+            },
+            {
+                "question": "On a scale of 1 to 10, how easy is it to navigate our website?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "_id": "6501c76c14d8666143aea89c"
+            },
+            {
+                "question": "How often do you use our customer support service?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "_id": "6501c76c14d8666143aea89d"
+            },
+            {
+                "question": "How likely are you to attend our future events?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "_id": "6501c76c14d8666143aea89e"
+            },
+            {
+                "question": "How likely are you to continue using our services in the future?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10"
+                ],
+                "_id": "6501c76c14d8666143aea89f"
+            }
+        ],
+        "__v": 0
+    }
+]
+
+
+output for : http://localhost:4000/api/responses (POST)
+
+{
+    "message": "Response submitted successfully"
+}
+
+output for : http://localhost:4000/api/similarity (GET)
+
+[
+    {
+        "candidate1": "Candidate 2",
+        "candidate2": "Candidate 3",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 2",
+        "candidate2": "Candidate 4",
+        "similarityPercentage": "25.00"
+    },
+    {
+        "candidate1": "Candidate 2",
+        "candidate2": "Candidate 5",
+        "similarityPercentage": "12.50"
+    },
+    {
+        "candidate1": "Candidate 2",
+        "candidate2": "Candidate 6",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 2",
+        "candidate2": "Candidate 7",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 2",
+        "candidate2": "Candidate 8",
+        "similarityPercentage": "12.50"
+    },
+    {
+        "candidate1": "Candidate 2",
+        "candidate2": "Candidate 1",
+        "similarityPercentage": "12.50"
+    },
+    {
+        "candidate1": "Candidate 3",
+        "candidate2": "Candidate 4",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 3",
+        "candidate2": "Candidate 5",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 3",
+        "candidate2": "Candidate 6",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 3",
+        "candidate2": "Candidate 7",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 3",
+        "candidate2": "Candidate 8",
+        "similarityPercentage": "75.00"
+    },
+    {
+        "candidate1": "Candidate 3",
+        "candidate2": "Candidate 1",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 4",
+        "candidate2": "Candidate 5",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 4",
+        "candidate2": "Candidate 6",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 4",
+        "candidate2": "Candidate 7",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 4",
+        "candidate2": "Candidate 8",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 4",
+        "candidate2": "Candidate 1",
+        "similarityPercentage": "12.50"
+    },
+    {
+        "candidate1": "Candidate 5",
+        "candidate2": "Candidate 6",
+        "similarityPercentage": "87.50"
+    },
+    {
+        "candidate1": "Candidate 5",
+        "candidate2": "Candidate 7",
+        "similarityPercentage": "100.00"
+    },
+    {
+        "candidate1": "Candidate 5",
+        "candidate2": "Candidate 8",
+        "similarityPercentage": "12.50"
+    },
+    {
+        "candidate1": "Candidate 5",
+        "candidate2": "Candidate 1",
+        "similarityPercentage": "25.00"
+    },
+    {
+        "candidate1": "Candidate 6",
+        "candidate2": "Candidate 7",
+        "similarityPercentage": "100.00"
+    },
+    {
+        "candidate1": "Candidate 6",
+        "candidate2": "Candidate 8",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 6",
+        "candidate2": "Candidate 1",
+        "similarityPercentage": "12.50"
+    },
+    {
+        "candidate1": "Candidate 7",
+        "candidate2": "Candidate 8",
+        "similarityPercentage": "0.00"
+    },
+    {
+        "candidate1": "Candidate 7",
+        "candidate2": "Candidate 1",
+        "similarityPercentage": "14.29"
+    },
+    {
+        "candidate1": "Candidate 8",
+        "candidate2": "Candidate 1",
+        "similarityPercentage": "12.50"
+    }
+]
